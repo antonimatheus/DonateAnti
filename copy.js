@@ -23,5 +23,5 @@ document.getElementById('copy').addEventListener('click', function() {
     // Esconder o elemento Copiado após 5 segundos
     setTimeout(function() {
         Copiado.style.display = 'none';
-    }, 5000); // 5000 milissegundos = 5 segundos
+    }, 3000); // 5000 milissegundos = 5 segundos
 });

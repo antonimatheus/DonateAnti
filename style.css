@@ -29,10 +29,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 550px;
+    width: 380px;
+    height: 580px;
     border-radius: 20px;
-    gap: 13px;
+    gap: 15px;
     background-color: var(--color1);
     animation: opacity 1.5s;
 }
@@ -43,7 +43,8 @@ body {
 }
 
 #title h1 {
-    font-size: 25px;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 #img img {
@@ -82,13 +83,18 @@ body {
     color: var(--color3);
 }
 
-#randomCode {
+#randomCodeBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
     border-radius: 5px;
+    gap: 5px;
     background-color: white;
 }
 
-#randomCode p {
+#randomCodeBlock p {
     font-size: 14px;
 }
 
@@ -117,7 +123,7 @@ body {
     text-align: center;
     border-radius: 5px;
     background-color: var(--color3);
-    animation: toTop 1s ease-out;
+    animation: toTop .5s ease-out;
 }
 
 @keyframes toTop {
